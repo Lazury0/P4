@@ -1430,6 +1430,10 @@ img {
     vertical-align: middle
 }
 
+.img-responsive{
+    width: 270px;
+    height: 280px;
+}
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
 .img-responsive,
@@ -1658,7 +1662,7 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
 }
 
 .text-justify {
