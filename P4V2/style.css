@@ -5,6 +5,8 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    max-width: 1500px;
+    margin: auto;
 }
 
 a,
@@ -282,7 +284,8 @@ a:hover {
     font-size: 32px;
 }
 #bloc-1-hero{
-    /* max-height: 250px; */
+    margin: auto;
+    max-width: 1500px;
 }
 
 .navbar {
@@ -717,7 +720,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 1500px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -1028,11 +1031,98 @@ h4 {
     color: #f3976c!important;
 }
 .pres-one{
-    font-size: 1em;
+    font-size: 2em;
+    color: #e05311!important;
 }
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+}
+#bloc-3-what-i-do{
+    margin: auto;
+    max-width: 1500px;
+}
+#bloc-5-cta{
+    margin: auto;
+    max-width: 1500px;
+}
+#bloc-6{
+    margin: auto;
+    max-width: 1500px;
+}
+#bloc-7{
+    margin: auto;
+    max-width: 1500px;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+#bloc-8{
+    margin: auto;
+    max-width: 1500px;
+}
+.form-group{
+    font-size: 1.8rem;
+}
+.contact-bloc p{
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.contact-mail::before{
+    font-family: "FontAwesome"; 
+    font-weight: 900; 
+    content: "\f0e0";
+    margin-right: 10px;
+}
+.contact-adress::before{
+    font-size: larger;
+    font-family: "FontAwesome"; 
+    font-weight: 900; 
+    content: "\f041";
+    margin-right: 15px;
+    margin-left: 4px;
+}
+.contact-hours::before{
+    font-family: "FontAwesome"; 
+    font-weight: 900; 
+    content: "\f017";
+    margin-right:15px;
+}
+.bloc-header-contact h1{
+    color: white!important;
+}
+.bloc-header-contact p{
+    color: white!important;
+    font-size: large;
+}
+.form-control{
+    border: rgba(0, 0, 0, 0.329) 1px solid;
+}
+.col-sm-4 .text-center{
+    font-size: 1.5em;
+}
+.col-sm-4{
+    width: 320px;
+}
+figure blockquote p{
+    font-size: 1em;
+}
+figure cite{
+    font-size: 1.5em;
+}
+.text-middle{
+    font-size: 1.2em;
+}
+.before-real{
+    font-size: 30px;
+}
+.col-sm-6{
+    padding-right: 55px;
+}
+.col-sm-6 p{
+    font-size: 1.3em;
+}
+.col-sm-6 h3{
+    font-size: 1.4em;
 }
 @media (max-width: 400px) {
     .bloc {
