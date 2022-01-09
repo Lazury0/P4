@@ -1038,6 +1038,10 @@ h4 {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
+#bloc-2-services h2{
+    font-size: 2em;
+    font-weight: 600;
+}
 #bloc-3-what-i-do{
     margin: auto;
     max-width: 1500px;
@@ -1103,10 +1107,21 @@ h4 {
 .col-sm-4{
     width: 320px;
 }
+#bloc-2-services .voffset{
+background-image: url(./img/texture-paper.png);
+background-size: contain;
+background-color: rgba(114, 79, 5, 0.329);
+}
+
+figure blockquote{
+    border: none;
+}
 figure blockquote p{
+    color: rgb(255, 255, 255)!important;
     font-size: 1em;
 }
 figure cite{
+    color: rgb(255, 255, 255);
     font-size: 1.5em;
 }
 .text-middle{
@@ -1123,6 +1138,10 @@ figure cite{
 }
 .col-sm-6 h3{
     font-size: 1.4em;
+}
+#bloc-8 .col-sm-12 p{
+    color: black!important;
+    font-size: 1em;
 }
 @media (max-width: 400px) {
     .bloc {
